@@ -19,7 +19,7 @@ jobs:
   deploy:
     environment:
       name: pypi
-      url: https://test.pypi.org/p/malogan-pypi-test
+      url: https://test.pypi.org/project/malogan-pypi-test/
     permissions:
       id-token: write
     runs-on: ubuntu-latest
