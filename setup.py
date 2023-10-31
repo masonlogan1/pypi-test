@@ -10,7 +10,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as reader:
     long_description = '\n'.join(reader.readlines())
 
-VERSION = '0.0.1'
+VERSION = '0.0.0'
 DESCRIPTION = 'test package for testing github workflow'
 LONG_DESCRIPTION = long_description
 
